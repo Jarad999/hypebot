@@ -9,6 +9,14 @@ Previous customers before the discontinuation of this project, have been given a
 
 ---
 
+# FREE INSTALLATION
+
+If you go over to [Snowside Hosting](https://snowsidehosting.com) you can get this bot PRE-INSTALLED for easy use and such with just 1 click!
+
+![](https://cdn.hyperz.dev/v0z91gyn.png)
+
+---
+
 # hypebot
 One of the most advanced Discord bots you will see released for free by me. Tops many of the base competitors bots.
 

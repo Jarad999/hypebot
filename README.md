@@ -161,7 +161,7 @@ This bot has the option for `unlimited` presences!
 
 # Table Of Contents:
 
-- [Main Configuration](h#main-configuration)
+- [Main Configuration](#main-configuration)
 - [New Users](#new-user-config)
 - [Server Stats](#server-stats-config)
 - [Moderation](#moderation-config)

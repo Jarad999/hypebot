@@ -3,6 +3,7 @@ commands/
 events/
 util/
 assets/
+handlers/
 
 # Logs
 logs

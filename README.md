@@ -2,6 +2,7 @@
 
 - This bot / repository is not for sale, and cannot be sold.
 - If you decide to use a major piece of code from this project for your own work, **I REQUIRE CREDIT!**
+- This bot is NOT an active representation of how I code now, this is from when I first started JS, to now, so most of the code **is** legacy.
 - Please don't use this code for malicious purposes.
 
 Previous customers before the discontinuation of this project, have been given a "coupon" to the next major project that is released. They will get it entirely free.

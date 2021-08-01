@@ -526,3 +526,28 @@ Debug mode is STRICTLY designed to show the errors the bot has. Most errors will
 ### Other:
 - [@My Discord Members](https://hyperz.dev/discord) - *Anyone else for the smaller things.*
 
+---
+
+# Image Collection
+
+![](https://cdn.hyperz.dev/cls2qfs2.png)
+![](https://cdn.hyperz.dev/0293sgnl.png)
+![](https://cdn.hyperz.dev/189txu2j.png)
+![](https://cdn.hyperz.dev/58mpvez5.png)
+![](https://cdn.hyperz.dev/ghgtctys.png)
+![](https://cdn.hyperz.dev/7en0mfb6.png)
+![](https://cdn.hyperz.dev/tlepf5ir.png)
+![](https://cdn.hyperz.dev/gaia2uqi.png)
+![](https://cdn.hyperz.dev/gu48thil.png)
+![](https://cdn.hyperz.dev/0ymvx227.png)
+![](https://cdn.hyperz.dev/80ojjh39.png)
+![](https://cdn.hyperz.dev/lilhwebb.png)
+![](https://cdn.hyperz.dev/pe16gb9l.png)
+![](https://cdn.hyperz.dev/8i5qizdl.png)
+![](https://cdn.hyperz.dev/git8e455.png)
+![](https://cdn.hyperz.dev/esh00qix.png)
+![](https://cdn.hyperz.dev/tlj3lw9e.png)
+![](https://cdn.hyperz.dev/9xtv1kbj.png)
+![](https://cdn.hyperz.dev/fwhblmbz.png)
+![](https://cdn.hyperz.dev/ajhm9cyl.png)
+

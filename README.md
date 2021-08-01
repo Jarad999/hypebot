@@ -488,8 +488,6 @@ You have to add the reactions first, THEN start the bot, and people will then AD
 
 ---
 
----
-
 # Port Requirement
 
 The bot uses a port so it can simply detect whether or not it is online via a "status" page.
@@ -506,4 +504,25 @@ Debug mode is STRICTLY designed to show the errors the bot has. Most errors will
 ![](https://cdn.hyperz.dev/6vwqjtj2.png)
 
 ---
+
+# Credits
+
+### Main Credits:
+- [@Hyperz#0001](https://hyperz.dev/discord) - *Head Developer of the HypeBot Project.*
+- [@PlutoTheDev#1000](https://xendev.us) - *Helped with Ticket Module & Re-wrote useless stuff.*
+- [@FAXES#8655](https://faxes.zone) - *Inspiration for the bot.*
+
+### Other Credits:
+- [@StackOverflow](https://stackoverflow.com) - *Helpful with bug testing and gathering excess bits and pieces.*
+- [@DJS-Guide](https://discord.js.org) - *Huge documentation with large detail on syntax and code use.*
+- [@GitHub](https://github.com) - *Where bits of the music module came from before the V12 Conversion & Bug Fixes.*
+
+### Bug Testing:
+- [@JipyTheDev](https://jipythedev.xyz) - *Literally Everything.*
+- [@KingEZFLOW#5661](https://ezflow.dev) - *Ticket System & Moderation Commands.*
+- [@Jordan.#2139](https://rocketdev.zone) - *Moderation Commands.*
+- [@Chr!s#6814](#) - *Greeting Module.*
+
+### Other:
+- [@My Discord Members](https://hyperz.dev/discord) - *Anyone else for the smaller things.*
 

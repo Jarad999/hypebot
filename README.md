@@ -14,6 +14,8 @@ One of the most advanced Discord bots you will see released for free by me. Tops
 
 This has been a journey of 6 months, from 1 event listener, and 5 commands. All the way to where we are now, with 12+ commands, and some 80+ commands. Along with a 300+ line config file to match everyones needs...
 
+P.S. This bot has pushed **OVER 100** sales.
+
 ---
 
 # Dependencies:

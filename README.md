@@ -30,10 +30,10 @@ P.S. This bot has pushed **OVER 100** sales.
 
 `NOTE: I will only provide support to customers with a VPS / DPS.`
 
-[Bot Hosting](https://snowsidehosting.com/index.php?rp=/store/discord-bot-hosting) or a [VPS / DPS](https://snowsidehosting.com/index.php?rp=/store/vps)
-[FFMPEG](https://www.youtube.com/watch?v=r1AtmY-RMyQ) (Required for Music)
-MySQL (Required)
-[NodeJS](https://nodejs.org/en/) (Required to run the bot)
+- [Bot Hosting](https://snowsidehosting.com/index.php?rp=/store/discord-bot-hosting) or a [VPS / DPS](https://snowsidehosting.com/index.php?rp=/store/vps)
+- [FFMPEG](https://www.youtube.com/watch?v=r1AtmY-RMyQ) (Required for Music)
+- MySQL (Required)
+- [NodeJS](https://nodejs.org/en/) (Required to run the bot)
 
 ---
 
@@ -65,7 +65,7 @@ MySQL (Required)
 
 ### Default Code:
 
-```
+```json
     "mysql": {
         "host": "localhost",
         "user": "root",
@@ -74,10 +74,10 @@ MySQL (Required)
     },
 ```
 
-`host` - *The IP of the server hosting the DB*
-`user` - *The user you wish to use on the DB (usually root)*
-`password` - *The password to the user account*
-`database` - *The name of the database you are storing your tables in*
+- `host` - *The IP of the server hosting the DB*
+- `user` - *The user you wish to use on the DB (usually root)*
+- `password` - *The password to the user account*
+- `database` - *The name of the database you are storing your tables in*
 
 ---
 
@@ -182,16 +182,16 @@ This bot has the option for `unlimited` presences!
 
 Any main configuration variables that weren't mentioned above, will be mentioned here.
 
-`token` - *Your bots token, found [here](https://discord.com/developers/applications)*
-`prefix` - *The calling-sign used to "get" the bot*
-`license_key` - *This is to authorise that you are allowed to use HypeBot. Go to [license.hyperz.dev](https://license.hyperz.dev/) to get your key!*
-`yourservername` - *If your servers name is long, use this to shorten it*
-`yourserverid` - *Your servers ID*
-`botownerid` - *The license owners Discord user ID*
-`aboutsection` - *A brief description of your server*
-`copyright` - *A simple way to label the bot for your server (you can change this...)*
-`colorhex` - *The color used primarily across all embeds sidebars*
-`voicechanneltojoin` - *A VC ID that the bot will join on start*
+- `token` - *Your bots token, found [here](https://discord.com/developers/applications)*
+- `prefix` - *The calling-sign used to "get" the bot*
+- `license_key` - *This is to authorise that you are allowed to use HypeBot. Go to [license.hyperz.dev](https://license.hyperz.dev/) to get your key!*
+- `yourservername` - *If your servers name is long, use this to shorten it*
+- `yourserverid` - *Your servers ID*
+- `botownerid` - *The license owners Discord user ID*
+- `aboutsection` - *A brief description of your server*
+- `copyright` - *A simple way to label the bot for your server (you can change this...)*
+- `colorhex` - *The color used primarily across all embeds sidebars*
+- `voicechanneltojoin` - *A VC ID that the bot will join on start*
 
 ![](https://cdn.hyperz.dev/68x5dev2.png)
 
@@ -199,26 +199,26 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # New User Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
  
-`useVerificationSystem` - *Decides if you want users to verify with a command before getting a member role*
-`verifiedroleids` - *A list of roles that a user will get when they verify*
+- `useVerificationSystem` - *Decides if you want users to verify with a command before getting a member role*
+- `verifiedroleids` - *A list of roles that a user will get when they verify*
 
-`useautorole` - *Decides if you want users to be given a role automatically when they join the server*
-`memberroleids` - *A list of roles that will be given to users when they join the server*
+- `useautorole` - *Decides if you want users to be given a role automatically when they join the server*
+- `memberroleids` - *A list of roles that will be given to users when they join the server*
 
-`useembeds` - *Decides if you want messages to be sent via embeds or not*
-`useservername` - *If you want to use your abbreviated server name from the main config*
+- `useembeds` - *Decides if you want messages to be sent via embeds or not*
+- `useservername` - *If you want to use your abbreviated server name from the main config*
 
-`usejoinmessage` - *Decides if you want to have an additional message sent when they join*
-`userjoinchannels` - *A list of channels to send welcome message(s) in*
-`userjoinheader` - *The header of the embed when a user joins*
-`userjoinmessage` - *The additional message (if enabled)*
+- `usejoinmessage` - *Decides if you want to have an additional message sent when they join*
+- `userjoinchannels` - *A list of channels to send welcome message(s) in*
+- `userjoinheader` - *The header of the embed when a user joins*
+- `userjoinmessage` - *The additional message (if enabled)*
 
-`useleavemessage` - *Decides if you want to have an additional message sent when they leave*
-`userleavechannels` - *A list of channels to send leave message(s) in*
-`userleaveheader` - *The header of the embed when a user leaves*
-`userleavemessage` - *The additional message (if enabled)*
+- `useleavemessage` - *Decides if you want to have an additional message sent when they leave*
+- `userleavechannels` - *A list of channels to send leave message(s) in*
+- `userleaveheader` - *The header of the embed when a user leaves*
+- `userleavemessage` - *The additional message (if enabled)*
 
 ![](https://cdn.hyperz.dev/kvqup2t4.png)
 
@@ -226,16 +226,16 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Server Stats Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`useMemberCount` - *Counts total server members, both users, and bots*
-`membercountchannelid` - *A channel ID that will update on user join/leave*
+- `useMemberCount` - *Counts total server members, both users, and bots*
+- `membercountchannelid` - *A channel ID that will update on user join/leave*
 
-`useUserCount` - *Counts strictly users, and does not include bots*
-`usercountchannelid` - *A channel ID that will update on user join/leave*
+- `useUserCount` - *Counts strictly users, and does not include bots*
+- `usercountchannelid` - *A channel ID that will update on user join/leave*
 
-`useBotCount` - *Counts strictly bots, and does not include users*
-`botcountchannelid` - *A channel ID that will update on user join/leave*
+- `useBotCount` - *Counts strictly bots, and does not include users*
+- `botcountchannelid` - *A channel ID that will update on user join/leave*
 
 ![](https://cdn.hyperz.dev/5gaxiyfu.png)
 
@@ -243,12 +243,12 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Moderation Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`enable_dm_command` - *Enable the use of the bots DM command*
-`dm_command_use_embeds` - *Decides if it should use embeds on the command entry*
+- `enable_dm_command` - *Enable the use of the bots DM command*
+- `dm_command_use_embeds` - *Decides if it should use embeds on the command entry*
 
-`mutedroleid` - *The ID of the muted role to be given when you mute users*
+- `mutedroleid` - *The ID of the muted role to be given when you mute users*
 
 ![](https://cdn.hyperz.dev/krfkm3y7.png)
 
@@ -256,31 +256,31 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Assistant Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`usePayPal` - *Decides if you wish to use this payment method in the pay command*
-`paypalLink` - *A link for them to pay you at*
+- `usePayPal` - *Decides if you wish to use this payment method in the pay command*
+- `paypalLink` - *A link for them to pay you at*
 
-`useCashApp` - *Decides if you wish to use this payment method in the pay command*
-`cashappLink` - *A link for them to pay you at*
+- `useCashApp` - *Decides if you wish to use this payment method in the pay command*
+- `cashappLink` - *A link for them to pay you at*
 
-`useVenmo` - *Decides if you wish to use this payment method in the pay command*
-`venmoLink` - *A link for them to pay you at*
+- `useVenmo` - *Decides if you wish to use this payment method in the pay command*
+- `venmoLink` - *A link for them to pay you at*
 
-`reviewschannelids` - *A list of channels to send new reviews*
-`suggestionschannelids` - *A list of channels to send new suggestions*
+- `reviewschannelids` - *A list of channels to send new reviews*
+- `suggestionschannelids` - *A list of channels to send new suggestions*
 
-`client_role_id` - *The role ID of your client's role for the clientadd / clientremove command*
+- `client_role_id` - *The role ID of your client's role for the clientadd / clientremove command*
 
-`useSupportCommands` - *Decides if you want to enable support commands*
-`memberSupportMessage` - *The content for the support message for members*
-`customerSupportMessage` - *The content for the support message for customers*
+- `useSupportCommands` - *Decides if you want to enable support commands*
+- `memberSupportMessage` - *The content for the support message for members*
+- `customerSupportMessage` - *The content for the support message for customers*
 
-`useListingCommand` - *Decides if you want to enable the listing command*
-`noListingImageFound` - *A link for if no image is found*
+- `useListingCommand` - *Decides if you want to enable the listing command*
+- `noListingImageFound` - *A link for if no image is found*
 
-`tosLink` - *A link to your Terms of Service*
-`yourwebsite` - *Your website link*
+- `tosLink` - *A link to your Terms of Service*
+- `yourwebsite` - *Your website link*
 
 ![](https://cdn.hyperz.dev/jciiabai.png)
 
@@ -288,14 +288,14 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Alt Prevention Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`banalts` - **
-`dmalts` - **
+- `banalts` - **
+- `dmalts` - **
 
-`timelimit` - *Time limit before removal in Milliseconds (look below for presets)*
+- `timelimit` - *Time limit before removal in Milliseconds (look below for presets)*
 
-```
+```js
 1 Month: 2592000000
 10 Days: 864000000
 1 Day: 86400000
@@ -307,19 +307,19 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Filter Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`bad_words` - *A list of words that will be deleted if said in messages*
+- `bad_words` - *A list of words that will be deleted if said in messages*
 
-`useMemes` - *Decides if the meme command is enabled*
-`memeSubRedditName` - *A name of a subreddit to source from*
+- `useMemes` - *Decides if the meme command is enabled*
+- `memeSubRedditName` - *A name of a subreddit to source from*
 
-`useInsults` - *Decides if the insult command is enabled*
-`insultSubRedditName` - *A name of a subreddit to source from*
+- `useInsults` - *Decides if the insult command is enabled*
+- `insultSubRedditName` - *A name of a subreddit to source from*
 
-`use_ping_prevention` - *Decides if it should enable the ping prevention module*
-`noping_userids` - *A list of users that shouldn't be pinged*
-`noping_imageurl` - *The image URL sent when a user from the list gets pinged*
+- `use_ping_prevention` - *Decides if it should enable the ping prevention module*
+- `noping_userids` - *A list of users that shouldn't be pinged*
+- `noping_imageurl` - *The image URL sent when a user from the list gets pinged*
 
 ![](https://cdn.hyperz.dev/bk5rfd11.png)
 
@@ -327,18 +327,20 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Tickets Config
 
-`enabled` - *If true, it will enable the module*
+**MUST RUN THE CREATEPANEL COMMAND TO MAKE A PANEL!**
 
-`useTicketReactions` - *Decides if a ticket reaction panel is / should be enabled*
-`reactionPanelMessageID` - *The Message ID of the panel*
-`reactionEmojiName` - *The emoji that the users should react with to create a ticket*
-`ticketThumbnailURL` - *The ticket's thumbnail URL for the embed*
+- `enabled` - *If true, it will enable the module*
 
-`ticketPanelColorHEX` - *The color HEX for the panel*
-`ticketPanelThumbnailURL` - *The ticket panel's thumbnail URL for the embed*
+- `useTicketReactions` - *Decides if a ticket reaction panel is / should be enabled*
+- `reactionPanelMessageID` - *The Message ID of the panel*
+- `reactionEmojiName` - *The emoji that the users should react with to create a ticket*
+- `ticketThumbnailURL` - *The ticket's thumbnail URL for the embed*
 
-`ticketscategoryid` - *The category tickets should be put into*
-`newticketmessage` - *The message in the embed when a ticket gets opened*
+- `ticketPanelColorHEX` - *The color HEX for the panel*
+- `ticketPanelThumbnailURL` - *The ticket panel's thumbnail URL for the embed*
+
+- `ticketscategoryid` - *The category tickets should be put into*
+- `newticketmessage` - *The message in the embed when a ticket gets opened*
 
 ![](https://cdn.hyperz.dev/3leg6kqg.png)
 
@@ -346,17 +348,17 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Giveaways Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`startgiveawaymessage` - *The message sent when you start a giveaway*
-`endgiveawaymessage` - *The message sent when you end a giveaway*
+- `startgiveawaymessage` - *The message sent when you start a giveaway*
+- `endgiveawaymessage` - *The message sent when you end a giveaway*
 
-`updateCountdownEvery` - *Every certain amount of time it will update the embed (in MS)*
-`hasGuildMembersIntent` - *Literally just LEAVE THIS AS TRUE*
-`botsCanWin` - *Decides if bots are allowed to win the giveaway(s)*
-`embedColor` - *The color of the embeds*
-`embedColorEnd` - *The color of the embeds when the giveaway ends*
-`reaction` - *The emoji users react to to enter the giveaway*
+- `updateCountdownEvery` - *Every certain amount of time it will update the embed (in MS)*
+- `hasGuildMembersIntent` - *Literally just LEAVE THIS AS TRUE*
+- `botsCanWin` - *Decides if bots are allowed to win the giveaway(s)*
+- `embedColor` - *The color of the embeds*
+- `embedColorEnd` - *The color of the embeds when the giveaway ends*
+- `reaction` - *The emoji users react to to enter the giveaway*
 
 ![](https://cdn.hyperz.dev/n17njq6m.png)
 
@@ -364,12 +366,12 @@ Any main configuration variables that weren't mentioned above, will be mentioned
 
 # Leveling Config
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`clearUsersOnLeave` - *Decides if you want users levels to be cleared if they leave*
-`levelUpMultiplier` - *Multiplies level by this number to meet required xp for next level, read below*
+- `clearUsersOnLeave` - *Decides if you want users levels to be cleared if they leave*
+- `levelUpMultiplier` - *Multiplies level by this number to meet required xp for next level, read below*
 
-```
+```js
 if levelUpMultiplier = 300
 1 x 300 = 300, so a user needs 300xp for the next level (2)
 2 x 300 = 600, so a user needs 600xp for the next level (3)
@@ -383,12 +385,12 @@ if levelUpMultiplier = 2
 Conclusion: keep this number high, it ensures more activity!!! :]
 ```
 
-`moreXPForAttachments` - *Decides if users should get more XP for posting images / attachments*
-`attachmentsBonus` - *Number of bonus XP added for attachments, keep this number low, like 4*
+- `moreXPForAttachments` - *Decides if users should get more XP for posting images / attachments*
+- `attachmentsBonus` - *Number of bonus XP added for attachments, keep this number low, like 4*
 
-`moreXPForLongerMessages` - *Decides if users should get more XP for posting longer messages*
-`msgCharacterRequirement` - *Number of characters required for bonus XP, keep this number high, like 650*
-`longerMSGSBonus` - *Number of bonus XP added for longer messages, keep this number low, like 5*
+- `moreXPForLongerMessages` - *Decides if users should get more XP for posting longer messages*
+- `msgCharacterRequirement` - *Number of characters required for bonus XP, keep this number high, like 650*
+- `longerMSGSBonus` - *Number of bonus XP added for longer messages, keep this number low, like 5*
 
 ![](https://cdn.hyperz.dev/q1hcp3dk.png)
 
@@ -400,12 +402,12 @@ This bot supports unlimited reaction roles! With an advanced array method that w
 
 You have to add the reactions first, THEN start the bot, and people will then ADD to your reactions, and the bot will remove them for you.
 
-`enabled` - *If true, it will enable the module*
+- `enabled` - *If true, it will enable the module*
 
-`roleid` - *The role to be given / removed*
-`messageid` - *The message ID of the message you want people to react to*
-`workflow` - *The type, 1 = Add role, don't remove it, 2 = Remove role, don't add it, 3 = Add OR Remove role*
-`reactionname` - *The actual emoji you want to be reacted to, press `WINDOWS KEY + .` or get them [here](https://emojipedia.org/).*
+- `roleid` - *The role to be given / removed*
+- `messageid` - *The message ID of the message you want people to react to*
+- `workflow` - *The type, 1 = Add role, don't remove it, 2 = Remove role, don't add it, 3 = Add OR Remove role*
+- `reactionname` - *The actual emoji you want to be reacted to, press `WINDOWS KEY + .` or get them [here](https://emojipedia.org/).*
 
 ![](https://cdn.hyperz.dev/lrhl4e8w.png)
 
@@ -413,15 +415,15 @@ You have to add the reactions first, THEN start the bot, and people will then AD
 
 # Permissions Config
 
-`staffperms` - *A list of roles that should have access to staff perms*
-`blacklistperms` - *A list of roles that should have access to blacklist commands*
-`ticketmanagers` - *A list of roles that should have access to tickets perms*
-`assistantmanagers` - *A list of roles that should have access to assistant commands*
-`revivechatperms` - *A list of roles that should have access to revive perms*
-`stickymsgperms` - *A list of roles that should have access to sticky message editing*
-`giveawayperms` - *A list of roles that should have access to giveaway perms*
-`serverlockperms` - *A list of roles that should have access to server lockdown command*
-`bypassfilters` - *A list of roles that should have access to bypass the filters module*
+- `staffperms` - *A list of roles that should have access to staff perms*
+- `blacklistperms` - *A list of roles that should have access to blacklist commands*
+- `ticketmanagers` - *A list of roles that should have access to tickets perms*
+- `assistantmanagers` - *A list of roles that should have access to assistant commands*
+- `revivechatperms` - *A list of roles that should have access to revive perms*
+- `stickymsgperms` - *A list of roles that should have access to sticky message editing*
+- `giveawayperms` - *A list of roles that should have access to giveaway perms*
+- `serverlockperms` - *A list of roles that should have access to server lockdown command*
+- `bypassfilters` - *A list of roles that should have access to bypass the filters module*
 
 ![](https://cdn.hyperz.dev/59g7f5v8.png)
 
@@ -429,35 +431,35 @@ You have to add the reactions first, THEN start the bot, and people will then AD
 
 # Logging Config
 
-`enable_deleted_messages_logging` - *Decides if this logging type should be enabled*
-`deleted_messages_channels` - *A list of channels this logging type should be sent to*
+- `enable_deleted_messages_logging` - *Decides if this logging type should be enabled*
+- `deleted_messages_channels` - *A list of channels this logging type should be sent to*
 
-`enable_edited_messages_logging` - *Decides if this logging type should be enabled*
-`edited_messages_channels` - *A list of channels this logging type should be sent to*
+- `enable_edited_messages_logging` - *Decides if this logging type should be enabled*
+- `edited_messages_channels` - *A list of channels this logging type should be sent to*
 
-`enable_channel_logging` - *Decides if this logging type should be enabled*
-`channel_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_channel_logging` - *Decides if this logging type should be enabled*
+- `channel_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_role_logging` - *Decides if this logging type should be enabled*
-`role_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_role_logging` - *Decides if this logging type should be enabled*
+- `role_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_command_logging` - *Decides if this logging type should be enabled*
-`command_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_command_logging` - *Decides if this logging type should be enabled*
+- `command_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_invite_logging` - *Decides if this logging type should be enabled*
-`invite_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_invite_logging` - *Decides if this logging type should be enabled*
+- `invite_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_ticketarchive_logging` - *Decides if this logging type should be enabled*
-`ticketarchive_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_ticketarchive_logging` - *Decides if this logging type should be enabled*
+- `ticketarchive_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_botsdm_logging` - *Decides if this logging type should be enabled*
-`botsdm_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_botsdm_logging` - *Decides if this logging type should be enabled*
+- `botsdm_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_serverlock_logging` - *Decides if this logging type should be enabled*
-`serverlock_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_serverlock_logging` - *Decides if this logging type should be enabled*
+- `serverlock_logging_channels` - *A list of channels this logging type should be sent to*
 
-`enable_altprev_logging` - *Decides if this logging type should be enabled*
-`altprev_logging_channels` - *A list of channels this logging type should be sent to*
+- `enable_altprev_logging` - *Decides if this logging type should be enabled*
+- `altprev_logging_channels` - *A list of channels this logging type should be sent to*
 
 ![](https://cdn.hyperz.dev/g6effwaf.png)
 
@@ -465,24 +467,24 @@ You have to add the reactions first, THEN start the bot, and people will then AD
 
 # Other Config
 
-`usemusic` - *Decides if the bot should enable music*
-`deleteSnipes` - *Decides if the bot should delete messages after they are sniped*
+- `usemusic` - *Decides if the bot should enable music*
+- `deleteSnipes` - *Decides if the bot should delete messages after they are sniped*
 
-`enableBlacklisting` - *Decides if the blacklisting module should be enabled*
-`logBlacklistsChannels` - *A list of channels that blacklists will be logged to*
-`blacklistedRoleID` - *The role for blacklisted users*
-`roleToGiveWhenUnBlacklisted` - *Usually your member role*
-`addBlacklistImageURL` - *The image URL for when a user is blacklisted*
-`removeBlacklistImageURL` - *The image URL for when a user is un-blacklisted*
-`autoBanImageURL` - *The image URL for when a user is blacklisted and gets banned for leaving*
+- `enableBlacklisting` - *Decides if the blacklisting module should be enabled*
+- `logBlacklistsChannels` - *A list of channels that blacklists will be logged to*
+- `blacklistedRoleID` - *The role for blacklisted users*
+- `roleToGiveWhenUnBlacklisted` - *Usually your member role*
+- `addBlacklistImageURL` - *The image URL for when a user is blacklisted*
+- `removeBlacklistImageURL` - *The image URL for when a user is un-blacklisted*
+- `autoBanImageURL` - *The image URL for when a user is blacklisted and gets banned for leaving*
 
-`useReviver` - *Decides if the reviver module is enabled*
-`reviver_messages` - *A list of messages that the bot will selecting randomly from*
-`deadChatPingsRoleID` - *A role ID to ping when a reviver message is sent, usually a chat revive role*
-`reviverlogourl` - *The logo for the embed when the reviver command is sent*
+- `useReviver` - *Decides if the reviver module is enabled*
+- `reviver_messages` - *A list of messages that the bot will selecting randomly from*
+- `deadChatPingsRoleID` - *A role ID to ping when a reviver message is sent, usually a chat revive role*
+- `reviverlogourl` - *The logo for the embed when the reviver command is sent*
 
-`serverinvite` - *An invite to your server*
-`staple_never_change` - *Just don't change this, it helps me keep track of bot versions lol*
+- `serverinvite` - *An invite to your server*
+- `staple_never_change` - *Just don't change this, it helps me keep track of bot versions lol*
 
 ![](https://cdn.hyperz.dev/u66alq5c.png)
 

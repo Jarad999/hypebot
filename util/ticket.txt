@@ -1,0 +1,6 @@
+[HypeTesting#9689 (825162734450638848)]
+• Content: Unknown
+• Embed: 
+    TITLE: Ticket:
+    DESCRIPTION: We have created your ticket! Please wait for a staff member to enter the ticket!
+

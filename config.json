@@ -10,7 +10,8 @@
         "colorhex": "#0362fc",
         "voicechanneltojoin": "yes-this-is-needed-lol",
         "port": "8020",
-        "debugmode": true
+        "debugmode": true,
+        "autoImportSQL": true
     },
 
     "presence_config": [

@@ -4,7 +4,8 @@ const chalk = require('chalk');
 const axios = require('axios');
 const invites = {};
 const wait = require('util').promisify(setTimeout);
-const { startupScreen } = require('../../util/boot.js');
+const nodelogger = require('hyperz-nodelogger')
+const logger = new nodelogger()
 const { loader } = require('../../util/loader.js');
 let i = 0;
 module.exports = async(client, Hyperz, config, con) => {
@@ -120,8 +121,8 @@ module.exports = async(client, Hyperz, config, con) => {
 
         }
 
-
-        startupScreen(client);
+	let content = `\nLogged in as ${client.user.tag} (${chalk.green(client.user.id)})\nOnline for ${chalk.green(client.guilds.cache.size)} guilds and ${chalk.green(client.users.cache.size)} users.\n\nPrefix: ${chalk.blue(config["main_config"].prefix)} (Default)\nCommands: 85\nEvents: 12\nCreated By: ${chalk.blue(`Hyperz#0001`)}\n\nDebug Mode: ${chalk.yellow(config["main_config"].debugmode)}\n\n Support available at ${chalk.blue(`https://support.hyperz.dev`)}`;
+	logger.hypelogger(`HypeBot`, '500', 'blue', content, 'disabled', 'blue', 'single', true)
         
         changeStatus(client, config)
 

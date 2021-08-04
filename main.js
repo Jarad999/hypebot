@@ -34,7 +34,7 @@ con.connect(err => {
     } else {
         // No error found?
         setTimeout(() => {
-            console.log(`MySQL has been connected to ${config["mysql"].database}`);
+            console.log(`MySQL has been connected to UWU ${config["mysql"].database}`);
         }, 5200)
     }
 });

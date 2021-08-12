@@ -31,3 +31,4 @@ CREATE TABLE cases (
     uniqueid varchar(255),
     enforcerid varchar(255),
     type varchar(255)
+);

@@ -87,6 +87,9 @@ module.exports = {
                     .setFooter(`${config["main_config"].copyright}`)
     
                 chan.send(ticketchannelembed)
+                if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+                }
                 message.delete().catch(e => {if(config["main_config"].debugmode) return console.log(e);});
                 } else if (message.content = `${config["main_config"].prefix}ticket`){ chan.setParent(config["tickets_config"].ticketscategoryid)
                 chan.overwritePermissions(permissionOverwriteArray)
@@ -102,6 +105,9 @@ module.exports = {
                     .setFooter(`${config["main_config"].copyright}`)
     
                 chan.send(ticketchannelembed2)
+                if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+                }
                 message.delete().catch(e => {if(config["main_config"].debugmode) return console.log(e);});
             }
                 message.channel.send(`Your new ticket has been opened in <#${chan.id}>`).then(msg => msg.delete({ timeout: 30000 })).catch(e => {if(config["main_config"].debugmode) return console.log(e);})

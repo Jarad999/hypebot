@@ -142,7 +142,10 @@
 
         "maxtickets": 2,
         "ticketscategoryid": "your-category-id",
-        "newticketmessage": "We have created your ticket! Please wait for a staff member to enter the ticket!"
+        "newticketmessage": "We have created your ticket! Please wait for a staff member to enter the ticket!",
+        
+        "pingRoleOnTicketOpen": false,
+        "roleIdToPing": "SOME_ROLE_ID_HERE"
     },
 
     "giveaways_config": {

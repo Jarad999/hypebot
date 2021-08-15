@@ -448,7 +448,9 @@ module.exports = async (client, Hyperz, config, con, button) => {
   
               chan.send(ticketchannelembed2)
               chan.overwritePermissions(permissionOverwriteArray)
-              chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              }
               } else {
               chan.overwritePermissions(permissionOverwriteArray)
               const ticketchannelembed2 = new Hyperz.MessageEmbed()
@@ -461,7 +463,9 @@ module.exports = async (client, Hyperz, config, con, button) => {
                   .setFooter(`${config["main_config"].copyright}`)
   
               chan.send(ticketchannelembed2)
-              chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              }
           }
           })
           if (hello == undefined) return;

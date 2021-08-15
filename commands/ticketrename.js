@@ -15,8 +15,8 @@ module.exports = {
 
                 if(config["tickets_config"].enabled) {
                     if(!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`You're not in a ticket channel.`).then(msg => msg.delete({timeout: 10000})).catch();
-                    message.channel.setName(`${args.join(" ").replace(" ", "-").toLowerCase()}`)
-                    message.channel.send(`I have renamed this ticket to \`${args.join(" ").replace(" ", "-").toLowerCase()}\``).catch();
+                    message.channel.setName(`ticket-${args.join(" ").replace(" ", "-").toLowerCase()}`)
+                    message.channel.send(`I have renamed this ticket to \`ticket-${args.join(" ").replace(" ", "-").toLowerCase()}\``).catch();
                 } else {
                     message.channel.send("This module is disabled, please ask the owner to enable it!").then(msg => msg.delete({ timeout: 9000 })).catch(e => {if(config["main_config"].debugmode) return console.log(e);})
                     message.delete().catch(e => {if(config["main_config"].debugmode) return console.log(e);});

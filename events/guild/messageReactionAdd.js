@@ -114,6 +114,9 @@ module.exports = async (client, Hyperz, config, con, reaction, user) => {
                   .setFooter(`${config["main_config"].copyright}`)
   
               chan.send(ticketchannelembed2)
+              if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              }
               chan.overwritePermissions(permissionOverwriteArray)
               } else {
               chan.overwritePermissions(permissionOverwriteArray)
@@ -127,6 +130,9 @@ module.exports = async (client, Hyperz, config, con, reaction, user) => {
                   .setFooter(`${config["main_config"].copyright}`)
   
               chan.send(ticketchannelembed2)
+              if(config.tickets_config.pingRoleOnTicketOpen) {
+                    chan.send(`<@&${config.tickets_config.roleIdToPing}>`)
+              }
           }
           })
           if (hello == undefined) return;

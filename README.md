@@ -32,7 +32,7 @@ P.S. This bot has pushed **OVER 100** sales.
 
 - [Bot Hosting](https://snowsidehosting.com/index.php?rp=/store/discord-bot-hosting) or a [VPS / DPS](https://snowsidehosting.com/index.php?rp=/store/vps)
 - [FFMPEG](https://www.youtube.com/watch?v=r1AtmY-RMyQ) (Required for Music)
-- MySQL (Required)
+- [MySQL](https://www.apachefriends.org/download.html) (Required)
 - [NodeJS](https://nodejs.org/en/) (Required to run the bot)
 
 ---
